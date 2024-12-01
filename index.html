@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="icon" href="./rajesh-dp.png" type="image/x-icon" />
+  <title>Rajesh Sarkar || Frontend Developer</title>
+  <meta name="description"
+    content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product" />
+  <meta name="author" content="Rajesh Sarkar" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD9ESD1D9K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-QD9ESD1D9K");
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./rajesh-dp.png" alt="Rajesh Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub" title="connect me using contact page">Rajesh Sarkar</span>
+        </span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#about" class="header__link"> About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#projects" class="header__link"> Projects </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, I'm Rajesh Sarkar</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Web developer focused on building and optimizing websites and apps
+          to drive product success. Passionate about creating user-friendly,
+          high-performance solutions that deliver real results and enhance
+          user experience.
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/rajeshkumarsarkar36/" class="home-hero__social-icon-link" rel="noreferrer"
+          target="_blank" title="Click to visit my linkedin account">
+          <img src="./linkedin-dark.svg" alt="Rajesh Sarkar Linkedin Profile" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://1drv.ms/b/c/2dc0f42ca563c813/EVKs2j8aP6NCgCWiQbKu1PABIVVY1SpxCDFbkCWheD4TOQ?e=KGfoKr"
+          class="home-hero__social-icon-link" rel="noreferrer" target="_blank" title="Click to view/download my resume">
+          <img src="./reshot-icon-resume-L4CTDEMPY6.svg" alt="Rajesh Sarkar Twitter Profile" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/rajeshsarkar98" class="home-hero__social-icon-link" rel="noreferrer"
+          target="_blank" title="Click to visit my github account">
+          <img src="./github-dark.svg" alt="Rajesh Sarkar Github Profile" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://www.youtube.com/channel/UCPyF9QGrmXSzKjPOZfnJOfA" title="Click to watch my youtube videos"
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" rel="noreferrer" target="_blank">
+          <img src="./video-frame-play-horizontal-svgrepo-com.svg" alt="Rajesh Sarkar Youtube Channel"
+            class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <audio id="myAudio">
+          <source src="./soft_music.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <button style="height:3rem; width:3rem; margin-left:1rem;" onclick="playAudio()" type="button" title="Click to play/push music">
+          <img src="./music-svgrepo-com.svg" alt="Rajesh Sarkar Twitter Profile" class="home-hero__social-icon" />
+        </button>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Here's a corrected and finished version of your line: "Here you will
+          find more information about me—who I am, my profession, and my
+          current skills, with a focus on programming and technology. Feel
+          free to explore and learn how I can help bring your projects to
+          life."
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know who I am!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Hi! I'm a <strong>Frontend Web Developer</strong> my journey
+              into tech started from a
+              <strong>non-technical</strong> background. From 2022 to 2024, I
+              worked as a
+              <strong>salesman at Reliance Retail Limited</strong>. After
+              hearing about web development from a friend, he guided me on how
+              to succeed in this field. I began learning by watching
+              <a href="https://youtube.com/@thapatechnical?si=rO1jbgNtlBrDif90">YouTube tutorials</a>, taking <a
+                href="https://www.codehelp.in/">courses</a>, and
+              reading
+              <a href="https://www.w3schools.com/">documentation</a> to grasp
+              core concepts. Through hard work and hands-on practice, I built
+              several projects and websites. Eventually, I landed my first job
+              at <strong>Zimyo Consultancy Limited</strong>. Today, I’m a
+              Frontend Web Developer, driven by passion and a commitment to
+              continuous learning. Check out some of my work in the
+              <strong>Projects</strong> section.
+            </p>
+            <p class="about__content-details-para">
+              I'm open to <strong>Job</strong> opportunities where I can
+              contribute, learn and grow. If you have a good opportunity that
+              matches my skills and experience then don't hesitate to
+              <strong>contact</strong> me.
+            </p>
+          </div>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React Js</div>
+            <div class="skills__skill">Node Js</div>
+            <div class="skills__skill">Bootstrap</div>
+            <div class="skills__skill">Tailwind CSS</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">Github</div>
+            <div class="skills__skill">Postman</div>
+            <div class="skills__skill">Responsive Design</div>
+            <div class="skills__skill">SEO</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Explore a variety of personal and client projects I've worked on,
+          each with its own case study. You'll find insights into the process,
+          design decisions, and how the work was completed, from start to
+          finish.
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./project1.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Live Clock</h3>
+            <p class="projects__row-content-desc">
+              A live clock with mode change effect is an enhanced version of a
+              basic live clock that allows users to toggle between different
+              time formats or visual themes (like light and dark modes). Using
+              HTML, CSS, and JavaScript, the clock can display the current
+              time in a 12-hour or 24-hour format. CSS provides the styling,
+              while JavaScript is used to dynamically update the time and
+              handle mode changes. A button or toggle allows users to switch
+              between modes, applying different styles via CSS classes. This
+              project teaches how to manipulate time, interact with user
+              input, and create smooth transitions for a dynamic user
+              experience.
+            </p>
+            <a class="btn btn--med btn--theme dynamicBgClr" href="https://rajeshsarkar98.github.io/live-clock/"
+              target="_blank">View</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./project2.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Note List</h3>
+            <p class="projects__row-content-desc">
+              A note list is a simple tool used to organize and keep track of
+              important information, tasks, or ideas. It can be digital or
+              physical, with entries typically consisting of brief text notes.
+              Note lists are often used for to-do lists, reminders, or
+              brainstorming. They help users stay organized by providing a
+              quick reference to essential points or actions. In digital
+              formats, note lists often include features like search,
+              categorization, and the ability to set reminders. This type of
+              list is versatile, adaptable, and can be customized for various
+              personal or professional purposes, enhancing productivity and
+              efficiency.
+            </p>
+            <a class="btn btn--med btn--theme dynamicBgClr" href="https://rajeshsarkar98.github.io/notes-list-app/"
+              target="_blank">View</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./project3.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">To-Do List</h3>
+            <p class="projects__row-content-desc">
+              A to-do list is a simple yet powerful tool for organizing tasks
+              and improving productivity. It helps individuals prioritize
+              activities, set clear goals, and stay focused throughout the
+              day. By breaking down larger projects into smaller, manageable
+              steps, a to-do list reduces feelings of overwhelm and increases
+              motivation. Whether handwritten or digital, a to-do list serves
+              as a visual reminder of what needs to be done, allowing for
+              better time management. Checking off completed tasks provides a
+              sense of accomplishment and encourages progress. Ultimately, a
+              well-maintained to-do list fosters efficiency and helps ensure
+              nothing important is forgotten.
+            </p>
+            <a class="btn btn--med btn--theme dynamicBgClr" href="https://rajeshsarkar98.github.io/todo-list/"
+              target="_blank">View</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./project4.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Calculator</h3>
+            <p class="projects__row-content-desc">
+              A calculator is a device used to perform mathematical
+              operations, ranging from basic arithmetic to complex functions.
+              It simplifies tasks such as addition, subtraction,
+              multiplication, and division, and is essential in fields like
+              finance, engineering, and science. Modern calculators come in
+              various forms, including handheld devices, desktop models, and
+              software applications. Advanced scientific calculators offer
+              features like trigonometric functions, logarithms, and
+              statistical analysis, while graphing calculators display
+              graphical representations of equations. With the rise of
+              smartphones and computers, many people rely on digital
+              calculators integrated into their devices, making mathematical
+              calculations quick and accessible anytime.
+            </p>
+            <a class="btn btn--med btn--theme dynamicBgClr" href="https://rajeshsarkar98.github.io/calculator/"
+              target="_blank">View</a>
+          </div>
+        </div>
+
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./project5.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Tic-Tac-Toe Game</h3>
+            <p class="projects__row-content-desc">
+              Tic-Tac-Toe is a simple two-player game played on a 3x3 grid.
+              One player uses "X" and the other uses "O." Players take turns
+              marking empty spaces on the grid, aiming to get three of their
+              marks in a row—horizontally, vertically, or diagonally. The game
+              ends when one player achieves this or when the grid is full,
+              resulting in a draw. Though easy to learn, Tic-Tac-Toe requires
+              strategy to outsmart the opponent and anticipate their moves.
+              It’s a popular pastime for children and adults alike, often
+              played on paper, boards, or digital devices.
+            </p>
+            <a class="btn btn--med btn--theme dynamicBgClr" href="https://rajeshsarkar98.github.io/tic-tac-toe-game/"
+              target="_blank">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Feel free to Contact me by submitting the form below and I will get
+          back to you as soon as possible
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form action="https://formspree.io/f/mqakbrwk" method="POST" action="#" class="contact__form" method="post">
+          <input type="hidden" name="form-name" value="form 1" />
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
+              id="name" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email"
+              id="email" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
+              name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rajeshkumarsarkar36/">
+              <img class="main-footer__icon" src="./linkedin-ico.png" alt="Rajesh Sarkar Linkedin Profile" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/rajeshsarkar98">
+              <img class="main-footer__icon" src="./github-ico.png" alt="Rajesh Sarkar Github Profile" />
+            </a>
+            <a target="_blank" rel="noreferrer"
+              href="https://www.instagram.com/rajeshsarkar0402/profilecard/?igsh=bndzMHFvbXowbXNl ">
+              <img class="main-footer__icon" src="./Iinstagram-ico.png" alt="Rajesh Sarkar Instagram Profile" />
+            </a>
+
+            <a target="_blank" rel="noreferrer"
+              href="https://1drv.ms/b/c/2dc0f42ca563c813/EQz2xkCZTkRKgXqDR3WpkIsBtGzi0d86y-ESLM4Y8HlIxQ?e=f4JcsQ">
+              <img class="main-footer__icon" src="./profile-ico.png" alt="Rajesh Sarkar resume" />
+            </a>
+
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h2 class="heading heading-sm text-lt">Rajesh Sarkar</h2>
+          <p class="main-footer__short-desc">
+            I build responsive, user-friendly interfaces using HTML, CSS,
+            JavaScript, and React. My goal is to turn design into
+            high-performance code that enhances user experience and drives
+            product success.
+          </p>
+        </div>
+      </div>
+
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright
+        <script>
+          const today = new Date();
+          const day = today.getDate();
+          const month = today.getMonth() + 1;
+          const year = today.getFullYear();
+          document.write(`${day}/${month}/${year}`);
+        </script>
+        . Made by
+        <a rel="noreferrer" target="_blank" href="">Rajesh Sarkar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
